@@ -21,4 +21,6 @@ This exercise focuses on combining multi-year traffic data from separate text fi
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](./assets/dashboard-preview.png)
+<a href="./Practice-Activity-10.svg" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Full%20SVG-0078D4?style=for-the-badge&logo=powerbi&logoColor=white" alt="View Full SVG">
+</a>
