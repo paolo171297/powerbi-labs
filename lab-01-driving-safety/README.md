@@ -30,4 +30,4 @@ This exercise focuses on combining multi-year traffic data from separate text fi
 
 <br><br>
 
-<img src="./Practice-Activity-10.svg" alt="Practice Activity 10 Dashboard Preview" width="100%">
+<img src="./Practice-Activity-10.svg" alt="Practice Activity 10 Dashboard Preview" width="10%">
