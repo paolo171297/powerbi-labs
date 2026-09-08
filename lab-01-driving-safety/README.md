@@ -19,7 +19,7 @@ This exercise focuses on combining multi-year traffic data from separate text fi
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview & Download
 
 <a href="https://raw.githubusercontent.com/paolo171297/powerbi-labs/main/lab-01-driving-safety/Practice-Activity-10.svg" target="_blank">
   <img src="https://img.shields.io/badge/View%20Full%20SVG-0078D4?style=for-the-badge&logo=powerbi&logoColor=white" alt="View Full SVG">
