@@ -24,3 +24,10 @@ This exercise focuses on combining multi-year traffic data from separate text fi
 <a href="https://raw.githubusercontent.com/paolo171297/powerbi-labs/main/lab-01-driving-safety/Practice-Activity-10.svg" target="_blank">
   <img src="https://img.shields.io/badge/View%20Full%20SVG-0078D4?style=for-the-badge&logo=powerbi&logoColor=white" alt="View Full SVG">
 </a>
+<a href="https://raw.githubusercontent.com/paolo171297/powerbi-labs/main/lab-01-driving-safety/Practice%20Activity%2010.pbix" download>
+  <img src="https://img.shields.io/badge/Download%20.PBIX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Download PBIX">
+</a>
+
+<br><br>
+
+<img src="./Practice-Activity-10.svg" alt="Practice Activity 10 Dashboard Preview" width="100%">
