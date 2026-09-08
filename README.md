@@ -16,26 +16,16 @@ The contents are structured around the core functional areas covered in the **PL
 
 ---
 
-## 🛠️ Tech Stack & Skills
-
-- **Core Tool:** Microsoft Power BI Desktop
-- **Data Modeling:** Star Schema Design, Snowflake Schema, Granularity Management
-- **Analytics & Logic:** DAX (Data Analysis Expressions), Filter Context Manipulation, Time Intelligence
-- **Data Transformation:** Power Query / M Language
-- **Version Control & Docs:** Git, Markdown
-
----
-
 ## 📂 Laboratory Index
 
 | # | Lab Title | Key Concepts & Focus Areas | Preview |
 |---|-----------|----------------------------|---------|
-| **01** | [Driving & Road Safety Analysis](./lab-01-driving-safety/) | Combo Charts, Formatting Options (Linear vs. Smooth), Time Intelligence | [View Lab](./lab-01-driving-safety/) |
+| **01** | [Driving & Road Safety Analysis](./lab-01-driving-safety/) | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [View Lab](./lab-01-driving-safety/) |
 | **02** | *Coming Soon* | *Upcoming topic / Data Modeling* | - |
 
-*(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, DAX measures, and dataset details.)*
+*(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, and step-by-step ETL workflow.)*
 
----
+--- 
 
 ## 💡 How to Use This Repository
 
@@ -43,15 +33,3 @@ The contents are structured around the core functional areas covered in the **PL
 2. **Interact with Models:** Download the `.pbix` files directly to open them in **Power BI Desktop**, inspect the data model (Relationships view), and test report interactions.
 
 ---
-
-## 📌 Featured DAX Patterns
-
-Here are a few re-usable DAX snippets developed throughout these labs:
-
-### Year-over-Year (YoY) Growth Calculation
-```dax
-Fatalities YoY % = 
-VAR CurrentPeriod = [Total Fatalities]
-VAR PreviousPeriod = CALCULATE([Total Fatalities], SAMEPERIODLASTYEAR('Calendar'[Date]))
-RETURN
-DIVIDE(CurrentPeriod - PreviousPeriod, PreviousPeriod, 0)
