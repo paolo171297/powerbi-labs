@@ -20,7 +20,7 @@ The contents are structured around the core functional areas covered in the **PL
 
 | # | Lab Title | Key Concepts & Focus Areas | Preview |
 |---|-----------|----------------------------|---------|
-| **01** | [Driving & Road Safety Analysis](./lab-01-driving-safety/) | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [View Lab](./lab-01-driving-safety/) |
+| **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [View Lab](./lab-01-driving-safety/) |
 | **02** | *Coming Soon* | *Upcoming topic / Data Modeling* | - |
 
 *(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, and step-by-step ETL workflow.)*
