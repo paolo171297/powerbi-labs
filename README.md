@@ -21,7 +21,7 @@ The contents are structured around the core functional areas covered in the **PL
 |:---:|:---|:---|:---:|
 | **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [<img src="https://img.shields.io/badge/View-0078D4?style=flat-square&logo=github&logoColor=white" alt="View">](./lab-01-driving-safety/) |
 | **02** | Computer Login & Workday Time Analysis | Power Query ETL (Custom/Conditional Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart | [<img src="https://img.shields.io/badge/View-0078D4?style=flat-square&logo=github&logoColor=white" alt="View">](./lab-02-computer-login/) |
-| **03** | Coming Soon |
+| **03** | Coming Soon | Coming Soon | ...|
 ---
 
 ## 💡 How to Use This Repository
