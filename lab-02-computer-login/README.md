@@ -10,7 +10,7 @@ Analyzes employee login patterns, session durations, and shift distributions usi
 * **Data Ingestion:** Imported `Computer login` dataset from `PowerBIData.xlsx`.
 * **Date & Duration Calculations:** Extracted `Date of Login` and calculated `Duration in Hours` from `Log in` and `Log out` timestamps.
 * **Row Indexing:** Added an incremental index starting from `1`.
-* **Role Classification:** Applied conditional logic to assign roles (**Supervisor** for *Mia Wilson* & *Mila Murphy*, **Data Analyst** for others).
+* **Role Classification:** Applied conditional logic to assign roles (**Supervisor** for *Mia Wilson* & *Mila Murphy*, **Regular User** for others).
 * **Time Period Segmentation:** Categorized logins into daily shifts via M logic: **Morning** (06:00-12:00), **Afternoon** (12:00-18:00), **Evening** (18:00-22:00), and **Late Evening / Early Morning** (22:00-06:00).
 
 ---
