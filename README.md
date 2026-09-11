@@ -19,8 +19,8 @@ The contents are structured around the core functional areas covered in the **PL
 
 | # | Lab Title | Key Concepts & Focus Areas | Preview |
 |---|-----------|----------------------------|---------|
-| **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [View Lab](./lab-01-driving-safety/) |
-| **02** | Computer Login & Workday Time Analysis | Power Query ETL (Custom Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart | [View Lab](./lab-02-computer-login/) |
+| **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [📁 View](./lab-01-driving-safety/) |
+| **02** | Computer Login & Workday Time Analysis | Power Query ETL (Custom/Conditional Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart | [📁 View](./lab-02-computer-login/) |
 
 *(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, and step-by-step ETL workflow.)*
 
