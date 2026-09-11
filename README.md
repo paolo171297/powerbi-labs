@@ -15,17 +15,16 @@ The contents are structured around the core functional areas covered in the **PL
 - **Deploy and Maintain Assets** (Row-Level Security, Workspace Management)
 
 ---
-
 ## 📂 Laboratory Index
 
 | # | Lab Title | Key Concepts & Focus Areas | Preview |
 |---|-----------|----------------------------|---------|
 | **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [View Lab](./lab-01-driving-safety/) |
-| **02** | *Coming Soon* | *Upcoming topic / Data Modeling* | - |
+| **02** | Computer Login & Workday Time Analysis | Power Query ETL (Custom Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart | [View Lab](./lab-02-computer-login/) |
 
 *(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, and step-by-step ETL workflow.)*
 
---- 
+---
 
 ## 💡 How to Use This Repository
 
