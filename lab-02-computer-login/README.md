@@ -1,31 +1,25 @@
 # Lab 02: Computer Login & Workday Time Analysis
 
 ## 🎯 Overview & Objectives
-This project analyzes employee login and session data to inspect workstation utilization, session durations, and user activity periods. The dataset was cleaned, transformed, and enriched using **Power Query**, followed by the implementation of custom metrics and interactive visuals in **Power BI Desktop**.
+Analyzes employee login patterns, session durations, and shift distributions using **Power Query** for ETL and **Power BI Desktop** for interactive visualizations.
 
 ---
 
 ## 🛠️ Data Processing & Power Query Steps
 
-* **Data Ingestion:** Loaded the `Computer login` dataset from `PowerBIData.xlsx`.
-* **Date & Duration Transformations:**
-  * Extracted the date component from `Log in` to create `Date of Login`.
-  * Computed login session duration (`Log out` minus `Log in`) and converted the total duration into hours (`Duration in Hours`).
-* **Row Indexing:** Added an incremental Index column starting from `1`.
-* **Role Classification:** Enriched the model by adding a conditional `Role` column distinguishing **Supervisors** (*Mia Wilson*, *Mila Murphy*) from **Data Analysts**.
-* **Time Period Segmentation:** Categorized login timestamps into daily shifts using M logic:
-  * **Morning:** 06:00 - 11:59
-  * **Afternoon:** 12:00 - 17:59
-  * **Evening:** 18:00 - 21:59
-  * **Late Evening / Early Morning:** 22:00 - 05:59
+* **Data Ingestion:** Imported `Computer login` dataset from `PowerBIData.xlsx`.
+* **Date & Duration Calculations:** Extracted `Date of Login` and calculated `Duration in Hours` from `Log in` and `Log out` timestamps.
+* **Row Indexing:** Added an incremental index starting from `1`.
+* **Role Classification:** Applied conditional logic to assign roles (**Supervisor** for *Mia Wilson* & *Mila Murphy*, **Data Analyst** for others).
+* **Time Period Segmentation:** Categorized logins into daily shifts via M logic: **Morning** (06:00-12:00), **Afternoon** (12:00-18:00), **Evening** (18:00-22:00), and **Late Evening / Early Morning** (22:00-06:00).
 
 ---
 
-## 📊 Visualizations & Dashboard Design
+## 📊 Visualizations & Formatting
 
-* **Stacked Column Chart:** Visualized login activity over time, plotting `Date of Login` against total logged hours (`Duration in Hours`).
-* **Role & Shift Breakdown:** Enhanced the visualization by segmenting metrics by `Role` (Supervisor vs. Data Analyst) and time periods (`Morning`, `Afternoon`, `Evening`, `Late Evening/Early Morning`).
-* **Interactive Slicers & Filters:** Implemented dynamic filtering to compare work patterns across role types and daily time slots.
+* **Stacked Column Chart:** Plotted `Date of Login` vs. `Duration in Hours` to track daily activity trends.
+* **Role & Shift Breakdown:** Segmented session metrics by `Role` and time periods (**Morning**, **Afternoon**, **Evening**, **Late Evening**).
+* **Interactive Slicers:** Enabled dynamic filtering by user role and shift time slots for cross-sectional analysis.
  ---
 ## 🖼️ Dashboard Preview & Download
 
