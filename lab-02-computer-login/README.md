@@ -27,11 +27,3 @@ This project analyzes employee login and session data to inspect workstation uti
 * **Role & Shift Breakdown:** Enhanced the visualization by segmenting metrics by `Role` (Supervisor vs. Data Analyst) and time periods (`Morning`, `Afternoon`, `Evening`, `Late Evening/Early Morning`).
 * **Interactive Slicers & Filters:** Implemented dynamic filtering to compare work patterns across role types and daily time slots.
 
----
-
-## 📁 Repository Structure
-
-```text
-├── Practice-Activity-Computer-Login.pbix   # Power BI Dashboard file
-├── Data/                                  # Source data folder
-└── README.md                              # Project documentation
