@@ -17,32 +17,10 @@ The contents are structured around the core functional areas covered in the **PL
 ---
 ## 📂 Laboratory Index
 
-<table>
-  <thead>
-    <tr>
-      <th align="center">#</th>
-      <th align="left">Lab Title</th>
-      <th align="left">Key Concepts & Focus Areas</th>
-      <th align="center">Preview</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><b>01</b></td>
-      <td align="left">Driving & Road Safety Analysis</td>
-      <td align="left">Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting</td>
-      <td align="center" style="white-space: nowrap;"><a href="./lab-01-driving-safety/">📁 View</a></td>
-    </tr>
-    <tr>
-      <td align="center"><b>02</b></td>
-      <td align="left">Computer Login & Workday Time Analysis</td>
-      <td align="left">Power Query ETL (Custom/Conditional Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart</td>
-      <td align="center" style="white-space: nowrap;"><a href="./lab-02-computer-login/">📁 View</a></td>
-    </tr>
-  </tbody>
-</table>
-
-*(Note: Click on each lab title to explore the full documentation, high-resolution screenshots, and step-by-step ETL workflow.)*
+| # | Lab Title | Key Concepts & Focus Areas | Preview |
+|:---:|:---|:---|:---:|
+| **01** | Driving & Road Safety Analysis | Power Query ETL (Merge & Append), Folder Import, Combo Charts, Line Formatting | [<img src="https://img.shields.io/badge/View-0078D4?style=flat-square&logo=github&logoColor=white" alt="View">](./lab-01-driving-safety/) |
+| **02** | Computer Login & Workday Time Analysis | Power Query ETL (Custom/Conditional Columns, Indexing), Duration & Time Segmentation, Stacked Column Chart | [<img src="https://img.shields.io/badge/View-0078D4?style=flat-square&logo=github&logoColor=white" alt="View">](./lab-02-computer-login/) |
 
 ---
 
