@@ -26,4 +26,12 @@ This project analyzes employee login and session data to inspect workstation uti
 * **Stacked Column Chart:** Visualized login activity over time, plotting `Date of Login` against total logged hours (`Duration in Hours`).
 * **Role & Shift Breakdown:** Enhanced the visualization by segmenting metrics by `Role` (Supervisor vs. Data Analyst) and time periods (`Morning`, `Afternoon`, `Evening`, `Late Evening/Early Morning`).
 * **Interactive Slicers & Filters:** Implemented dynamic filtering to compare work patterns across role types and daily time slots.
+ ---
+## 🖼️ Dashboard Preview & Download
 
+<a href="https://raw.githubusercontent.com/paolo171297/powerbi-labs/main/lab-02-computer-login/Practice-Activity-2.svg" target="_blank">
+  <img src="https://img.shields.io/badge/View%20Full%20SVG-0078D4?style=for-the-badge&logo=powerbi&logoColor=white" alt="View Full SVG">
+</a>
+<a href="https://github.com/paolo171297/powerbi-labs/raw/main/lab-02-computer-login/Practice%20Activity%202.pbix" download>
+  <img src="https://img.shields.io/badge/Download%20.PBIX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Download PBIX">
+</a>
